@@ -1,0 +1,44 @@
+.navbar.navbar-default.navbar-invoice{
+    box-shadow: none !important;
+    background-color: #6F767B
+}
+
+ul.nav.navbar-nav.nav-invoice {
+    text-align: center;
+    width: 100%;
+    li {
+        float: none;
+        display: inline-block;
+        a{
+                width: 185px;
+                color: #FFFFFF;
+                /* font-family: "Source Sans Pro"; */
+                font-size: 20px;
+                line-height: 25px;
+        }
+    }
+    .active {
+        
+            background: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, #FFFFFF 100%);
+            opacity: 0.1;
+        
+    }
+}
+
+.invoice-item-title {
+    font-family: Klavika;		
+    color: #4A4A4A;	
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.form-group.has-feedback.txt-search{
+    width: 85%;
+    padding-left: 10%;
+}
+.invoice-button{
+    height: 69px;	
+    width: 223.8px;	
+    transform: rotate(360deg);	
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.18);
+}
